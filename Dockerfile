@@ -2,7 +2,9 @@ FROM java:8
 
 MAINTAINER Sjoerd Mulder <sjoerd@crobox.com>
 
-ENV TEAMCITY_BUILD 41463 // EAP build number from https://confluence.jetbrains.com/display/TW/Download+Latest
+# EAP build number from https://confluence.jetbrains.com/display/TW/Download+Latest
+ENV TEAMCITY_BUILD 41463
+
 ENV TEAMCITY_DATA_PATH /var/lib/teamcity
 
 # Get and install teamcity
